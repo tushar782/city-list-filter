@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { selectItems, selectSearchTerm } from '../redux/itemSlice';
 import Item from './Item';
 
-const ITEMS_PER_PAGE = 3; // Limit items per page for pagination
+const ITEMS_PER_PAGE = 3; // Limit items per page for paginations
 
 const ItemList = () => {
   const items = useSelector(selectItems); // Get the list of items from the Redux store

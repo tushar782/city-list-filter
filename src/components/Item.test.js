@@ -3,9 +3,9 @@ import Item from './Item';
 
 describe('Item', () => {
   it('renders the item name', () => {
-    render(<Item name="Nagpur" />);
+    render(<Item name="Mumbai" />);
 
     // Assert that the item name is rendered
-    expect(screen.getByText('Nagpur')).toBeInTheDocument();
+    expect(screen.getByText('Mumbai')).toBeInTheDocument();
   });
 });

@@ -13,6 +13,11 @@ const initialState = {
     { id: 8, name: 'Ahmedabad' },
     { id: 9, name: 'Jaipur' },
     { id: 10, name: 'Surat' },
+    { id: 11, name: 'Bhopal' },
+    { id: 12, name: 'Sangli' },
+    { id: 13, name: 'Solapur' },
+    { id: 14, name: 'Kolhapur'},
+    { id: 15, name: 'Wardha' },
   ],
   searchTerm: '', // Holds the search query to filter the cities
 };
